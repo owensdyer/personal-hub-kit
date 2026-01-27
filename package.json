@@ -1,0 +1,18 @@
+{
+  "name": "personal-hub-kit",
+  "version": "0.0.1",
+  "description": "A design kit used for my personal website (Personal Hub)",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass src/sass/framework.scss dist/personal-hub-kit.css --style=compressed",
+    "build:js": "echo 'JS build step coming soon!'",
+    "build": "npm run build:sass && npm run build:js"
+  },
+  "keywords": ["personal-hub", "sass", "design-system", "django", "js", "frontend"],
+  "author": "Owen Dyer",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}
