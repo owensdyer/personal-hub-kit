@@ -6,13 +6,34 @@
   "scripts": {
     "build:sass": "sass src/sass/framework.scss dist/personal-hub-kit.css --style=compressed",
     "build:js": "echo 'JS build step coming soon!'",
-    "build": "npm run build:sass && npm run build:js"
+    "build": "npm run build:sass && npm run build:js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
-  "keywords": ["personal-hub", "sass", "design-system", "django", "js", "frontend"],
+  "keywords": [
+    "personal-hub",
+    "sass",
+    "design-system",
+    "django",
+    "js",
+    "frontend"
+  ],
   "author": "Owen Dyer",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
-    "sass": "^1.97.3"
+    "@chromatic-com/storybook": "^5.0.0",
+    "@storybook/addon-a11y": "^10.2.1",
+    "@storybook/addon-docs": "^10.2.1",
+    "@storybook/addon-vitest": "^10.2.1",
+    "@storybook/html-vite": "^10.2.1",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
+    "gh-pages": "^6.3.0",
+    "playwright": "^1.58.0",
+    "sass": "^1.97.3",
+    "storybook": "^10.2.1",
+    "vitest": "^4.0.18"
   }
 }
