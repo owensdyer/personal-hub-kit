@@ -1,0 +1,27 @@
+// _projects.scss contains styles for the projects component
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr $sidebar-width;
+  gap: $spacing-lg;
+  max-width: $container-max-width;
+  margin: $spacing-lg auto;
+  padding: 0 2rem;
+}
+
+.project {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid $color-border;
+
+  &-title {
+    font-weight: 500;
+    font-size: $font-size-base;
+  }
+}
+
+.cta {
+  margin-top: 1rem;
+  display: inline-block;
+  font-weight: 500;
+  color: $color-accent;
+}

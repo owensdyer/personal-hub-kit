@@ -1,0 +1,17 @@
+// framework.scss is the root file which includes all style sheets
+
+// Settings
+@use "settings/colors";
+@use "settings/font";
+@use "settings/layout";
+
+// Base
+@use "base/reset";
+@use "base/base";
+
+// Components
+@use "components/header";
+@use "components/projects";
+@use "components/tags";
+@use "components/skills";
+@use "components/footer";

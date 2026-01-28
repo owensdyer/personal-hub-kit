@@ -1,0 +1,19 @@
+// _base.scss contains base styles
+
+body {
+  margin: 0;
+  font-family: $font-family-base;
+  background-color: $color-bg;
+  color: $color-text;
+}
+
+section {
+  margin-bottom: 3rem;
+
+  h2 {
+    font-size: $font-size-xl;
+    font-weight: 600;
+    color: $color-accent;
+    margin-bottom: 0.8rem;
+  }
+}

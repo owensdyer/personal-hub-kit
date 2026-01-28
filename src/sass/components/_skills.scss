@@ -1,0 +1,42 @@
+// _skills.scss contains styles for the skills component
+
+aside {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+  padding-left: $spacing-md;
+  border-left: 1px solid $color-border;
+
+  h3 {
+    margin-top: 0;
+    font-size: $font-size-lg;
+    font-weight: 600;
+    color: $color-accent;
+  }
+}
+
+.skill-group {
+  margin-bottom: 1.3rem;
+
+  strong {
+    display: block;
+    font-size: $font-size-sm;
+    color: $color-muted;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.skill {
+  font-size: $font-size-xs;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background-color: $color-tag-bg;
+  color: $color-accent;
+  font-weight: 500;
+}

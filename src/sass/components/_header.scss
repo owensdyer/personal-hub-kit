@@ -1,0 +1,22 @@
+// _header.scss contains styles for the header component
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 3rem 1rem;
+  border-bottom: 1px solid $color-border;
+
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: $font-size-xxl;
+  }
+
+  span {
+    margin-left: 0.7rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: $color-muted;
+  }
+}

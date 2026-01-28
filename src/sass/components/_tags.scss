@@ -1,0 +1,17 @@
+// _tags.scss contains styles for tag component
+
+.tags {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-xs;
+}
+
+.tag {
+  font-size: $font-size-xs;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background-color: $color-tag-bg;
+  color: $color-accent;
+  font-weight: 500;
+}
